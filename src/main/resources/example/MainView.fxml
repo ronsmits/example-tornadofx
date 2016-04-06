@@ -16,6 +16,7 @@
             </padding>
             <children>
                 <Label fx:id="headerText"/>
+                <Label fx:id="otherText"/>
             </children>
         </VBox>
     </top>

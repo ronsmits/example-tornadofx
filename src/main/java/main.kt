@@ -20,6 +20,7 @@ class MainView : View() {
     override val root: BorderPane by fxml()
 
     @FXML lateinit var headerText: Label
+    var otherText: Label by fxid()
     @FXML lateinit var topBox: VBox
 
     init {
